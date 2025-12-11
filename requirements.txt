@@ -1,0 +1,60 @@
+# ROS Code Checker & Simulation Preview Tool - Requirements
+# Python 3.8+ required
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+Werkzeug==3.0.1
+
+# Code Quality & Linting
+flake8==6.1.0
+pycodestyle==2.11.0
+pyflakes==3.1.0
+mccabe==0.7.0
+
+# XML/YAML Processing
+lxml==4.9.3
+PyYAML==6.0.1
+
+# ROS/Python Parsing
+ast-decompiler==0.7.0
+
+# Data Processing
+numpy==1.24.4
+pandas==2.0.3
+
+# Image Processing (for simulation screenshots)
+opencv-python==4.8.1.78
+Pillow==10.1.0
+
+# File Handling
+zipfile38==0.0.3
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Subprocess Management
+psutil==5.9.6
+
+# JSON Schema Validation
+jsonschema==4.19.2
+
+# Logging & Monitoring
+coloredlogs==15.0.1
+
+# Documentation Generation
+markdown==3.5.1
+
+# Optional: ROS Python Clients (install via rosdep for ROS2)
+# rclpy - Install via: sudo apt install ros-humble-rclpy
+# ament-flake8 - Install via: sudo apt install ros-humble-ament-flake8
+# colcon-core - Install via: sudo apt install python3-colcon-common-extensions
+
+# Development Tools (optional)
+ipython==8.17.2
+ipdb==0.13.13
+
+# Web Interface Additional
+Jinja2==3.1.2
+MarkupSafe==2.1.3
